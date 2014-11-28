@@ -1,31 +1,116 @@
-<html>
-<head>
-<title>JonasBlog</title></head>
-<meta name="Title" content="Jonascom">
-<meta name="Author" content="Jonas Trimborn">
-<meta name="Keywords" content="Blog, Jonas, Trimborn, Jonas Trimborn">
-<meta name="Description" content="Blog">
-<meta name="Language" content="Deutsch, German">
-<style type="text/css">
+<!DOCTYPE html>
+<html lang="en">
 
-a:link { text-decoration:none; font-weight:bold; color:#e00000; }
-a:visited { text-decoration:none; font-weight:bold; color:#800000; }
-a:hover { color: white; text-decoration: underline; text-decoration-color: white; font-weight:bold; background-color:; }
-a:active { text-decoration:none; font-weight:bold; background-color:#FFFFFF; }
-a:focus { text-decoration:none; font-weight:bold; background-color:#080; }
-</style>
+<head>
+<link
+	href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/shift.css"
+	rel="stylesheet">
+
+<link rel="stylesheet"
+	href="http://s3.amazonaws.com/codecademy-content/courses/ltp/css/bootstrap.css">
+<link rel="stylesheet" href="main.css">
+
+<meta http-equiv="Content-Type" content="text/html;charset=utf-8">
+
+<title>Jonescom - Join the adventure!</title>
+
+</head>
+
 <body>
-<div align="center"><a href="index.html"><img style="0px none;" src="Header.jpg" alt="Jonas Trimborn Blog" border="0" width="918" height="200"></a></div>
-<table width="50%" height="1" align="center" border="1" cellpadding="10" cellspacing="1"bgcolor="#616161">
-<tr><td width="77"><a href="myblog.html"><span style="color:white">MY BLOG</a></td><td width="87"><a href="aboutme.html"><span style="color:white">ABOUT ME</a></td>
-<td width="50"><a href="pictures.html"><span style="color:white">PICTURES</a></td><td width="30"><a href="links.html"><span style="color:white">LINKS</a></td>
-<td width="30"><a href="contact.html"><span style="color:white">CONTACT</a></td><td></td></tr>
-</table>
-<table width="50%" height="10" align="center" border="0" cellpadding="10" cellspacing="1"bgcolor="#FFFFFF"><tr>
-<td><span style="font-size:0.8em">Sie sind hier: Home</td></tr></table>
-<table width="25.05%" height="1500" align="left" border="0" cellpadding="10" cellspacing="1" bgcolor="#FFFFFF"><tr><td></td></tr></table>
-<table width="35%" height="1500" align="left" border="0" cellpadding="10" cellspacing="1" bgcolor="#FFFFFF"><tr><td></td></tr></table>
-<table width="15%" height="1500" align="left" border="0" cellpadding="10" cellspacing="1" bgcolor="#E0E0E0"><tr><td></td></tr></table>
-<table width="50%" height="100" align="center" border="0" cellpadding="10" cellspacing="1"bgcolor="#FFFFFF"><tr><td></td></tr></table>
+	<div class="nav">
+		<div class="container">
+			<ul class="pull-left">
+				<li><a href="index.html">Home</a></li>
+				<li><a href="http://www.codecademy.com/JonesTea">My
+						Codecademy profile</a></li>
+				<li><a href="https://github.com/jonastrimborn/jonastothecloud">My
+						GitHub repository</a></li>
+			</ul>
+			<ul class="pull-right">
+				<li><a href="impressum.html">Impressum</a></li>
+			</ul>
+		</div>
+	</div>
+
+	<div class="jumbotron">
+		<div class="container">
+			<h1>Welcome to Jonescom!</h1>
+			<p>The most epic homepage ever.</p>
+			<form action="http://de.wikipedia.org/wiki/Spezial:Suche">
+						<label for="field">Wikipedia Suche</label> <input type="text"
+							name="search" id="field" value="" /> <input type="submit"
+							name="go" value="Artikel" /> <input type="submit"
+							name="fulltext" value="Volltext" />
+					</form>
+			<a href="http://wave.webaim.org/report#/jonastrimborn3.cloudcontrolled.com"
+					title="wave-tool test"> <img
+						height="32" width="88" src="http://www.w3.org/WAI/wcag1AAA"
+						alt="Level Triple-A conformance icon, 
+          W3C-WAI Web Content Accessibility Guidelines 1.0"></a>
+		</div>
+	</div>
+	<div class="neighborhood-guides">
+		<div class="container">
+			<h2>Content</h2>
+			<p>May these things will interest you.</p>
+			<div class="row">
+
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img
+							src="http://www.foodportfolio.com/archive9/new_4_05_images/50146_GE-3_1_05%20%20037cc.jpg"
+							alt="Food">
+					</div>
+				</div>
+
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img
+							src="http://3.bp.blogspot.com/-hIqb2dj5f5k/UyBl5yAXoGI/AAAAAAAABLY/5Sq4vRdKkNg/s1600/Quote-of-the-day-310x224.png"
+							alt="Quote of the Day">
+					</div>
+
+				</div>
+
+
+
+				<div class="col-md-4">
+					<div class="thumbnail">
+						<img
+							src="http://rack.3.mshcdn.com/media/ZgkyMDEzLzA0LzMwLzFlL2NvZGluZ2Z1dHVyLmQ1MzY5LmpwZwpwCXRodW1iCTk1MHg1MzQjCmUJanBn/fce2cac8/a4d/coding-future.jpg"
+							alt="Coding">
+					</div>
+				</div>
+
+			</div>
+		</div>
+	</div>
+	<div class="learn-more">
+		<div class="container">
+			<div class="row">
+				<div class="col-md-4">
+					<h3>Jonescom</h3>
+					<p>
+						<a href="#">What is Jonescom?</a>
+					</p>
+				</div>
+				<div class="col-md-4">
+					<h3>Links</h3>
+					<p>
+						<a href="http://www.codecademy.com/JonesTea">Codecademy Profile</a>
+					</p>
+					<p>
+						<a href="https://github.com/jonastrimborn/jonastothecloud">GitHub Repos</a>
+					</p>
+				</div>
+				<div class="col-md-4">
+					<h3>Help</h3>
+					<p>
+						<a href="impressum.html">Impressum</a>
+					</p>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 </html>
